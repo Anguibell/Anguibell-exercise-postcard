@@ -1,0 +1,60 @@
+body {
+	background: black;
+	display: block;
+	margin: 150px;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	align-items: center;
+}
+
+.postcard-header h1 {
+	width: 350px;
+	margin: 0%;
+	margin-left: 10px;
+	font-family: "Libre Baskerville";
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0%;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	padding: 5px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	border: none;
+	border-bottom: 1px solid gray;
+	background-color: darkgray;
+	height: 30px;
+}
